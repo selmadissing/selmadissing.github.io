@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ff7eb9; /* A colorful top section */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #f0f0f0; /* Simpler color for the bottom section */
+}
+
+.project {
+    width: 30%;
+    margin: 10px;
+    border: 1px solid #ddd;
+    padding: 15px;
+    background-color: white;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.project:hover {
+    transform: scale(1.05);
+}
+
+.project h2 {
+    color: #333;
+    margin-top: 0;
+}
+
+.project p {
+    color: #666;
+}
+
+@media screen and (max-width: 600px) {
+    .project {
+        width: 100%;
+    }
+}
