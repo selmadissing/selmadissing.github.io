@@ -57,7 +57,7 @@ body {
 }
 
 .about-section{
-    padding: 15rem; /* Space outside each section */
+    padding: 10rem; /* Space outside each section */
     height: 100vh;
     text-align: center;
 }
@@ -80,8 +80,8 @@ body {
 }
 
 .portfolio-section {
+    padding: 10rem;
     height: 100vh; /* Changed from 100vh to auto */
-    padding: 20px;
     display: block;
 }
 
@@ -127,6 +127,7 @@ body {
 
 
 .contact-section{
+    padding: 10rem;
     height: 100vh;
     text-align: center;
 
