@@ -4,24 +4,24 @@ body {
     padding: 0;
 }
 
-header {
-    background-color: #ff7eb9; /* A colorful top section */
+.intro-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    background-color: #41beb7; /* Colorful background */
     color: white;
-    font-family: "eurostile", sans-serif;
     text-align: center;
-    padding: 20px 0;
 }
 
-header h1 {
-    margin: 0;
+.intro-section h1 {
+    margin: 10px 0;
 }
 
-header p {
+.intro-section p {
     margin-top: 10px;
-    margin-bottom: 20px;
     width: 60%;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 #portfolio {
@@ -58,5 +58,9 @@ header p {
 @media screen and (max-width: 600px) {
     .project {
         width: 100%;
+    }
+
+    .intro-section p {
+        width: 80%;
     }
 }
