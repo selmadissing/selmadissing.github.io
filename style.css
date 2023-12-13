@@ -67,6 +67,7 @@ body {
     letter-spacing: 3px;
     color: #000000;
     font-weight: 800;
+    text-align: center;
 }
 
 .portfolio-section {
@@ -85,6 +86,7 @@ body {
     letter-spacing: 3px;
     color: #000000;
     font-weight: 800;
+    text-align: center;
 }
 
 .project {
@@ -121,6 +123,7 @@ body {
     letter-spacing: 3px;
     color: #000000;
     font-weight: 800;
+    text-align: center;
 }
 
 @media screen and (max-width: 600px) {
