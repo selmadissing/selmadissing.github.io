@@ -6,8 +6,8 @@ body {
 }
 
 .navbar {
-    background-color: #000000;
-    color: white;
+    background-color: #ffffff;
+    color: black;
     padding: 10px;
     position: fixed;
     top: 0;
@@ -24,13 +24,8 @@ body {
 }
 
 .nav-link:hover {
-    background-color: #40e0d0; /* Turquoise color */
+    color: #40e0d0;
 }
-
-.nav-link.active {
-    background-color: #555;
-}
-
 
 .intro-section {
     display: flex;
@@ -60,7 +55,11 @@ body {
     line-height: 1.6;
 }
 
-#portfolio {
+.about-section{
+    height: 100vh;
+}
+
+.portfolio-section {
     display: flex;
     height: 100vh;
     flex-wrap: wrap;
@@ -72,9 +71,9 @@ body {
 .project {
     width: 30%;
     margin: 10px;
-    border: 1px solid #ddd;
+    border: 1px solid #40e0d0;
     padding: 15px;
-    background-color: #dddddd;
+    background-color: #40e0d0;
     cursor: pointer;
     transition: transform 0.3s ease;
 }
@@ -90,6 +89,10 @@ body {
 
 .project p {
     color: #666;
+}
+
+.contact-section{
+    height: 100vh;
 }
 
 @media screen and (max-width: 600px) {
