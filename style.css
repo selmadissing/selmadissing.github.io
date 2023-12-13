@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
-    background-color: #E5E8E8;
+    background-color: #fafafa;
 }
 
 .navbar {
@@ -41,7 +41,7 @@ body {
 
 .intro-section h1 {
     margin: 10px 0;
-    font-size: 6rem;
+    font-size: 4rem;
     text-transform: uppercase;
     letter-spacing: 3px;
     color: #000000;
@@ -51,7 +51,7 @@ body {
 .intro-section p {
     margin-top: 10px;
     color: #333;
-    font-size: 2.2rem;
+    font-size: 2rem;
     width: 100%;
     line-height: 1.6;
 }
