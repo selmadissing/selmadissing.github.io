@@ -6,14 +6,13 @@ body {
 }
 
 .navbar {
-    background-color: #333;
-    color: white;
+    background-color: #FFFFFF;
+    color: black;
     padding: 10px;
     position: fixed;
     top: 0;
-    right: 0;
+    width: 100%;
     display: flex;
-    flex-direction: column;
     align-items: flex-end;
 }
 
@@ -21,7 +20,7 @@ body {
     padding: 10px;
     color: white;
     text-decoration: none;
-    display: block;
+    margin-left: 10px; /* Spacing between links */
 }
 
 .nav-link:hover {
@@ -32,26 +31,41 @@ body {
     background-color: #555;
 }
 
+.section {
+    height: 100vh; /* Set each section to take full viewport height */
+    display: flex;
+    flex-direction: column;
+    /*justify-content: center;
+    /*align-items: center;
+    /*text-align: center;
+}
+
 .intro-section {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh; /* Full viewport height */
-    background-color: #FFFFFF; /* Colorful background */
+    background-color: #dddddd; /* Colorful background */
     color: #000000;
     text-align: center;
 }
 
 .intro-section h1 {
     margin: 10px 0;
-    font-size: 40px;
+    font-size: 6rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #000000;
+    font-weight: 800;
 }
 
 .intro-section p {
     margin-top: 10px;
-    width: 60%;
-    font-size: 20px;
+    color: #333;
+    font-size: 2.2rem;
+    width: 100%;
+    line-height: 1.6;
 }
 
 #portfolio {
