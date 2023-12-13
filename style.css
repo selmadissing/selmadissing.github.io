@@ -31,22 +31,19 @@ body {
     background-color: #555;
 }
 
-.section {
-    height: 100vh; /* Set each section to take full viewport height */
-}
 
-.intro-section {
+.section-intro {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh; /* Full viewport height */
-    background-color: #dddddd; /* Colorful background */
+    background-color: #dddddd;
     color: #000000;
     text-align: center;
 }
 
-.intro-section h1 {
+.section-intro h1 {
     margin: 10px 0;
     font-size: 6rem;
     text-transform: uppercase;
@@ -55,7 +52,7 @@ body {
     font-weight: 800;
 }
 
-.intro-section p {
+.section-intro p {
     margin-top: 10px;
     color: #333;
     font-size: 2.2rem;
@@ -63,8 +60,13 @@ body {
     line-height: 1.6;
 }
 
-#portfolio {
+.section-about{
+
+}
+
+.section-portfolio {
     display: flex;
+    height: 100vh;
     flex-wrap: wrap;
     justify-content: space-around;
     padding: 20px;
@@ -92,6 +94,10 @@ body {
 
 .project p {
     color: #666;
+}
+
+.section-contact{
+    
 }
 
 @media screen and (max-width: 600px) {
