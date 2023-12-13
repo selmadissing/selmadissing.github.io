@@ -57,8 +57,8 @@ body {
 }
 
 .about-section{
-    padding: 100px; /* Space inside each section */
-    margin: 20px; /* Space outside each section */
+    padding: 20px; /* Space inside each section */
+    margin: 100px; /* Space outside each section */
     height: 100vh;
 }
 
