@@ -80,9 +80,9 @@ body {
 }
 
 .portfolio-section {
-    height: auto; /* Changed from 100vh to auto */
+    height: 100vh; /* Changed from 100vh to auto */
     padding: 20px;
-    display: block; /* Changed from flex to block */
+    display: block;
 }
 
 .portfolio-section h2 {
