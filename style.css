@@ -6,8 +6,8 @@ body {
 }
 
 .navbar {
-    background-color: #FFFFFF;
-    color: black;
+    background-color: #000000;
+    color: white;
     padding: 10px;
     position: fixed;
     top: 0;
@@ -32,7 +32,7 @@ body {
 }
 
 
-.section-intro {
+.intro-section {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -43,7 +43,7 @@ body {
     text-align: center;
 }
 
-.section-intro h1 {
+.intro-section h1 {
     margin: 10px 0;
     font-size: 6rem;
     text-transform: uppercase;
@@ -52,7 +52,7 @@ body {
     font-weight: 800;
 }
 
-.section-intro p {
+.intro-section p {
     margin-top: 10px;
     color: #333;
     font-size: 2.2rem;
@@ -60,11 +60,7 @@ body {
     line-height: 1.6;
 }
 
-.section-about{
-
-}
-
-.section-portfolio {
+#portfolio {
     display: flex;
     height: 100vh;
     flex-wrap: wrap;
@@ -94,10 +90,6 @@ body {
 
 .project p {
     color: #666;
-}
-
-.section-contact{
-    
 }
 
 @media screen and (max-width: 600px) {
