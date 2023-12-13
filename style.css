@@ -10,19 +10,25 @@ body {
     color: white;
     padding: 10px;
     position: fixed;
-    width: 100%;
     top: 0;
+    right: 0;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: flex-end;
 }
 
 .nav-link {
     padding: 10px;
     color: white;
     text-decoration: none;
+    display: block;
 }
 
-.nav-link:hover, .nav-link.active {
+.nav-link:hover {
+    background-color: #40e0d0; /* Turquoise color */
+}
+
+.nav-link.active {
     background-color: #555;
 }
 
