@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
+    background-color: #E5E8E8;
 }
 
 .navbar {
@@ -25,7 +26,7 @@ body {
 }
 
 .nav-link:hover {
-    color: #D65DB1;
+    color: #A2D9CE;
 }
 
 .intro-section {
@@ -33,8 +34,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh; /* Full viewport height */
-    background-color: #E5E8E8;
+    height: 100vh;
     color: #000000;
     text-align: center;
 }
@@ -57,10 +57,9 @@ body {
 }
 
 .about-section{
-    margin: 10rem; /* Space outside each section */
+    padding: 15rem; /* Space outside each section */
     height: 100vh;
     text-align: center;
-    background-color: #E5E8E8;
 }
 
 .about-section h2 {
@@ -86,7 +85,6 @@ body {
     flex-wrap: wrap;
     justify-content: space-around;
     padding: 20px;
-    background-color: #E5E8E8;
 }
 
 .portfolio-section h2 {
@@ -102,9 +100,9 @@ body {
 .project {
     width: 30%;
     margin: 10px;
-    border: 1px solid #D65DB1;
+    border: 1px solid #A2D9CE;
     padding: 15px;
-    background-color: #D65DB1;
+    background-color: #A2D9CE;
     cursor: pointer;
     transition: transform 0.3s ease;
 }
@@ -124,6 +122,7 @@ body {
 
 .contact-section{
     height: 100vh;
+    text-align: center;
 
 }
 
@@ -134,8 +133,7 @@ body {
     letter-spacing: 3px;
     color: #000000;
     font-weight: 800;
-    text-align: center;
-    background-color: #E5E8E8;
+
 }
 
 @media screen and (max-width: 600px) {
