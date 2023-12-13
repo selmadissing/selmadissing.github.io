@@ -37,6 +37,8 @@ body {
     background-color: #dddddd;
     color: #000000;
     text-align: center;
+    padding: 40px; /* Space inside each section */
+    margin: 20px; /* Space outside each section */
 }
 
 .intro-section h1 {
@@ -114,6 +116,7 @@ body {
 
 .contact-section{
     height: 100vh;
+
 }
 
 .contact-section h2 {
