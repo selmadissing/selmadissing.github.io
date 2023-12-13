@@ -25,7 +25,7 @@ body {
 }
 
 .nav-link:hover {
-    color: #40e0d0;
+    color: #D65DB1;
 }
 
 .intro-section {
@@ -34,7 +34,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh; /* Full viewport height */
-    background-color: #dddddd;
+    background-color: #E5E8E8;
     color: #000000;
     text-align: center;
 }
@@ -57,9 +57,10 @@ body {
 }
 
 .about-section{
-    margin: 8rem; /* Space outside each section */
+    margin: 10rem; /* Space outside each section */
     height: 100vh;
     text-align: center;
+    background-color: #E5E8E8;
 }
 
 .about-section h2 {
@@ -85,7 +86,7 @@ body {
     flex-wrap: wrap;
     justify-content: space-around;
     padding: 20px;
-    background-color: #ffffff; /* Simpler color for the bottom section */
+    background-color: #E5E8E8;
 }
 
 .portfolio-section h2 {
@@ -101,9 +102,9 @@ body {
 .project {
     width: 30%;
     margin: 10px;
-    border: 1px solid #40e0d0;
+    border: 1px solid #D65DB1;
     padding: 15px;
-    background-color: #40e0d0;
+    background-color: #D65DB1;
     cursor: pointer;
     transition: transform 0.3s ease;
 }
@@ -134,6 +135,7 @@ body {
     color: #000000;
     font-weight: 800;
     text-align: center;
+    background-color: #E5E8E8;
 }
 
 @media screen and (max-width: 600px) {
