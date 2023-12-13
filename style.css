@@ -33,11 +33,6 @@ body {
 
 .section {
     height: 100vh; /* Set each section to take full viewport height */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;*/
 }
 
 .intro-section {
