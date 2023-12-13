@@ -7,6 +7,7 @@ body {
 header {
     background-color: #ff7eb9; /* A colorful top section */
     color: white;
+    font-family: "eurostile", sans-serif;
     text-align: center;
     padding: 20px 0;
 }
